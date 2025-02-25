@@ -1,0 +1,15 @@
+# Ignore a pasta node_modules (tanto do backend quanto do frontend)
+node_modules/
+
+# Ignore arquivos de configuração do editor (Visual Studio Code, por exemplo)
+.vscode/
+
+# Ignore arquivos de logs
+*.log
+
+# Ignore arquivos de sistema (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Dockerfile e outros arquivos relacionados ao Docker, se não forem usados
+docker-compose.yml
